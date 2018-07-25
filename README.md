@@ -1,4 +1,4 @@
-# Mednafen Server Startup Scripts (2.0.0)
+# Mednafen Server Startup Scripts (1.0.0)
 Startup scripts for the Mednafen game server - uses the "screen" command to manage session. This also restarts the Mednafen server process if it crashes.
 
 Official support sites: [Official Github Repo](https://github.com/fstltna/MednafenStartup)

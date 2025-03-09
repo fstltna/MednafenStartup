@@ -8,7 +8,7 @@ These start up the Mednafen server at boot time with a "screen" process.
 
 1. Copy **mednafen** into **/home/mednafenuser/bin** - make sure it is executable
 2. Copy **startmednafen** into **/home/mednafenuser/mednafen-server** - make sure it is executable
-4. Run add to "crontab -e" as mednafenuser: "**@reboot /home/mednafenuser/bin/mednafen start**"
+4. As mednafenuser run "crontab -e" and add this line: "**@reboot /home/mednafenuser/bin/mednafen start**"
 
 When you want to view the Mednafen console, just enter "**screen -r**" in your shell.
 

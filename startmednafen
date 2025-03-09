@@ -14,9 +14,9 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-my $MEDNAFENDIR = "/root/mednafen-server";
+my $MEDNAFENDIR = "/home/mednafenuser/mednafen-server";
 my $SCREENCMD = "/usr/bin/screen";
-my $MEDNAFENEXE = "/usr/local/bin/mednafen-server /root/mednafen-server/standard.conf";
+my $MEDNAFENEXE = "$MEDNAFENDIR/mednafen-server /home/mednafenuser/mednafen-server/standard.conf";
 
 # No changes below here...
 
